@@ -1,3 +1,11 @@
+/*
+ * @Author: liyanan liyn@mail.open.com.cn
+ * @Date: 2023-03-07 16:09:42
+ * @LastEditors: liyanan liyn@mail.open.com.cn
+ * @LastEditTime: 2023-03-07 16:15:51
+ * @FilePath: /deno/mod.ts
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
 
 async function handleRequest(request: Request): Promise<Response> {
@@ -27,6 +35,7 @@ async function handleRequest(request: Request): Promise<Response> {
       </head>
       <body>
         <h1>Example</h1>
+        <img src="https://www.iopen.com.cn/Public/assets/img/logo.png" alt="" />
       </body>
     </html>`,
     {
